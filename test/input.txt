@@ -7,3 +7,6 @@ Compression can be lossless, meaning that the original data can be perfectly res
 The goal of this test is to demonstrate how compression algorithms like Huffman coding can reduce the size of a file.
 This is a test file for compression algorithms. 
 Compression algorithms are used to reduce the size of files by eliminating redundancy in the data.
+okkkk
+kkk
+((((===+++))))

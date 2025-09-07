@@ -85,7 +85,7 @@ Huffman 编码是一种经典的无损压缩算法。本项目的目标是将 Hu
 
 ### 5.1 压缩流程
 
-输入文件/目录 $ \rightarrow $ 扫描目录，收集元数据 $ \rightarrow $ 写入文件头 $ \rightarrow $ 逐文件读取数据、分块、压缩、写入数据块 $ \rightarrow $ 生成索引表，写入尾部 $ \rightarrow $ 生成完成 `.huffp` 文件
+输入文件/目录 $\rightarrow$ 扫描目录，收集元数据 $ \rightarrow $ 写入文件头 $ \rightarrow $ 逐文件读取数据、分块、压缩、写入数据块 $ \rightarrow $ 生成索引表，写入尾部 $ \rightarrow $ 生成完成 `.huffp` 文件
 
 ### 5.2 解压流程
 

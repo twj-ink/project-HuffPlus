@@ -80,10 +80,13 @@ void HuffmanCompressor::decompress(std::istream& in, std::ostream& out) {
 
     std::string decoded;
     std::string cur;
+    size_t charCount = 0;
     for (char bit : encoded) {
+        if (charCount >= originalSize) break;
         cur.push_back(bit);
         if (decodeMap.count(cur)) {
             decoded.push_back(decodeMap[cur]);
+            charCount++;
             cur.clear();
         }
     }
