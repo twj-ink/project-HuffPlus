@@ -33,6 +33,8 @@ public:
 private:
     void buildTree(const std::string& data); // 构建哈夫曼树
     void buildCodes(HuffmanNode* node, const std::string& prefix); // 构建字符编码
+    void writeBits(std::ostream& out, const std::string& bits); // 把01序列写为字节流
+    std::string readBits(std::istream& in);
 
     std::unordered_map<unsigned char, std::string> codeMap; // 字符与编码的映射
     std::unordered_map<std::string, unsigned char> decodeMap; // 编码与字符的映射

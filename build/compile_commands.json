@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/Github/project-HuffPlus/build",
+  "command": "D:\\mingw64\\mingw64\\bin\\g++.exe  @CMakeFiles/project-HuffPlus.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\project-HuffPlus.dir\\src\\main.cpp.obj -c D:\\Github\\project-HuffPlus\\src\\main.cpp",
+  "file": "D:/Github/project-HuffPlus/src/main.cpp",
+  "output": "CMakeFiles/project-HuffPlus.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Github/project-HuffPlus/build",
+  "command": "D:\\mingw64\\mingw64\\bin\\g++.exe  @CMakeFiles/project-HuffPlus.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\project-HuffPlus.dir\\src\\Huffman.cpp.obj -c D:\\Github\\project-HuffPlus\\src\\Huffman.cpp",
+  "file": "D:/Github/project-HuffPlus/src/Huffman.cpp",
+  "output": "CMakeFiles/project-HuffPlus.dir/src/Huffman.cpp.obj"
+}
+]
